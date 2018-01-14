@@ -1,0 +1,16 @@
+comsync:
+    log_level : 3
+    log_file : comsync.log
+    need_backup : 1
+    event_size : 16
+    event_timeout : 10
+    zk_timeout : 60000
+    zk_hosts :
+        - 192.168.217.11:2781
+        - 192.168.217.128:2781
+        - 192.168.217.129:2781
+    monitor_files :
+        messagepush :
+            - /home/work/xiafangyu/hehe.conf
+        p2p :
+            - /home/work/xiafangyu/haha.conf
